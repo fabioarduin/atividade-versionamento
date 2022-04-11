@@ -1,0 +1,16 @@
+542  git branch
+  543  git checkout feature/mult
+  544  git add .
+  545  git commit "adiciona funcao de multiplicacao. "
+  546  git push
+  547  git commit - m  "adiciona funcao de multiplicacao."
+  548  git commit -m  "adiciona funcao de multiplicacao."
+  549  git push
+  550  git push --set-upstream origin feature/mult
+  551  git checkout master
+  552  git pull
+  553  git merge feature/mult
+  554  git push
+  555  git add .
+  556  git commit -m "mesquei com a master"
+  557  git push
